@@ -1,0 +1,21 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"parcel index.html",
+    "build":"parcel build index.html"
+    //dev는 개발용이고 build는 웹에서 보여지는 화면이기 때문에 
+    //build는 들여쓰기가 다 지워 지고 난독화가 되어서 출력됨
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
